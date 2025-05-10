@@ -9,8 +9,9 @@ import { useEffect, useState } from "react";
 import FlightDetailsBox from './FlightDetailsBox';
 import Accommodation from './Accommodation';
 import ActivityPlan from './AcitvityPlan';
-import JourneySection from './journeySection';
+// import JourneySection from './journeySection';
 import Footer from './Footer';
+import JourneySection from './journeySection';
 
 
 
@@ -130,6 +131,7 @@ const Dashboard = () => {
 <ActivityPlan activityCount={7} />
 
 
+{/* <JourneySection selectedDestination={destination}/> */}
 <JourneySection selectedDestination={destination}/>
 <Footer/>
   </div>
