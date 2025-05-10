@@ -11,7 +11,7 @@ import Accommodation from './Accommodation';
 import ActivityPlan from './AcitvityPlan';
 // import JourneySection from './journeySection';
 import Footer from './Footer';
-import JourneySection from './journeySection';
+import JourneySection from './JourneySection';
 
 
 
